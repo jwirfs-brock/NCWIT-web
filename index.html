@@ -1,0 +1,47 @@
+<html>
+  <head>
+  <title>NCWIT: Visualizing Majors and Declaration Time</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="NCWIT.css">
+  </head>
+
+  <body>
+  <div class="tab_bar" id="my_tab_bar">
+    <p>Choose which category to highlight (when do students declare a major?)</p>
+    <button class="tabButton" id="all">Show all</button>
+    <button class="tabButton" id="ue">Upon Enrollment</button>
+    <button class="tabButton" id="ef">End of First Year</button>
+    <button class="tabButton" id="es">End of Second Year</button>
+    <button class="tabButton" id="other">Other</button>
+
+  </div>
+
+    <div class="content" id="content">
+
+      <div class="content" id="all-content">
+      <img src="images/output2.png" />
+      </div>
+
+    <div class="content" id="ue-content">
+      <img src="images/output3.png" />
+    </div>
+
+    <div class="content" id="ef-content">
+      <img src="images/output4.png" />
+    </div>
+
+    <div class="content" id="es-content">
+      <img src="images/output5.png" />
+    </div>
+
+    <div class="content" id="other-content">
+    <img src="images/output6.png" />
+    </div>
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="NCWIT.js"></script>
+  </body>
+  </html>
